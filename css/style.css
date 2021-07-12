@@ -9,6 +9,25 @@ html {
     width: 100vw;
 }
 
+.whatsapp-ico{
+    fill: white;
+    width: 70px;
+    height: 70px;
+    padding: 3px;
+    background-color: #4dc247;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    /* box-shadow: 2px 2px 11px rgba(0,0,0,0.7); */
+    position: fixed;
+    bottom: 30px;
+    right : 30px;
+    z-index: 10;
+}
+
+.whatsapp-ico:hover{
+    box-shadow: 2px 2px 11px rgba(0,0,0,0.7);
+}
+
 .header {
     position: fixed;
     width: 100vw;
@@ -34,7 +53,7 @@ p {
 }
 
 .nav-link {
-    font-size: 0.8rem;    
+    font-size: 0.9rem;    
     padding: 0.9%;
     background-color: transparent;    
 }
@@ -58,8 +77,8 @@ h1 {
 }
 
 h2 {
-    font-size: 13px;
-    line-height: 200%;
+    font-size: 15px;
+    line-height: 18px;
 }
 
 .nosotros {
@@ -80,6 +99,22 @@ h2 {
         box-sizing: border-box;
     }
 
+    .textualbox2 {
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+.productos {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fotoproducto {
+    max-width: 30vw;
+    border: solid white 1px;
+}
+
 #nosotros {    
     font-size: 18px;
     color: white;
@@ -94,8 +129,14 @@ h2 {
 }
 
 .contactanos {
-    margin: 10px 0 10px 0px;
-    scroll-snap-type: y mandatory;
+    margin: 5rem 0 0 0;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 120.54%;
+    background: #FFFF00;
+    color: #353535;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .socialmedia {  
@@ -111,8 +152,36 @@ h2 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.googlemap {
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
+}
+
+input, textarea {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;    
+    text-align: center;
+    font-size: 1.05rem; 
+    color: #353535;
+    width: 80vw;
+    margin: 3%;    
+    border: solid #353535 1px;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.googlemap {
+    width: 90vw;
+    height: 50vh;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+::placeholder {    
+    color: #353535;
 }
 
 #boxyellowadvertice {
@@ -150,6 +219,23 @@ h2 {
     color: #353535;
     font-size: 15px;
     font-weight: 700;
+}
+
+#greybutton {    
+    color: white;    
+    background: #353535;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+    border: none;
+    font-family: Sarala;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 39px;    
+    text-align: center;
+    letter-spacing: 0.25px;
+    padding: 5px 32px;
+    margin: 10px 0 0 0;
 }
 
 #whatsapp {
