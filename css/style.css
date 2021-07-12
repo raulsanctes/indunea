@@ -1,3 +1,52 @@
 html {
-    background-color: grey;
+    background-color: #353535;
+    color: white;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.header {
+    position: fixed;
+    top: 0px;        
+    left: 0px;
+    width: 100vw;
+    font-weight: 700;
+    font-size: 0.8rem;
+    background-color: #353535;
+
+}
+
+#header-img {  
+    margin-bottom: 5px;
+}
+
+.nav-bar, .nav-link {
+    text-decoration: none;
+    color: #353535;
+    padding: 0.8rem 2% 0.8rem 2%;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #FFFF00;    
+}
+
+.nav-link {
+    background-color: transparent;    
+}
+
+#comprar-ahora-link {
+    color: white;  
+    background-color: #0487FF;
+    font-size: 1rem;
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 10rem;
+    scroll-snap-type: y mandatory;
+}
+
+.yellowadvertice {
+    scroll-snap-align:inherit;
+    background-color: red;
 }

@@ -8,75 +8,87 @@
     <title>Indunea</title>
 </head>
 <body>
-    <header class="header">
-        <img id="header-img" src="img/logoindunea.svg">
-        <div class="nav-bar">
-            <nav class="nav-bar">
-                <a class="nav-link" href="#nosotros">Nosotros</a>
-                <a class="nav-link" href="#productos">Productos</a>
-                <a class="nav-link" href="#showroom">Showroom</a>
-                <a class="nav-link" href="#contactanos">Contactanos</a>
-                <a class="nav-link" href="#comprar-ahora">Comprar ahora</a>                
-            </nav>
-        </div>
+    <header class="header">        
+            <div class="header-img-class">
+                <img id="header-img" alt="Indunea Logo" src="statics/img/logoindunea.svg">
+            </div>
+            <div class="nav-bar">            
+                <nav>
+                    <a class="nav-link" href="#nosotros">Nosotros</a>
+                    <a class="nav-link" href="#productos">Productos</a>
+                    <a class="nav-link" href="#showroom">Showroom</a>
+                    <a class="nav-link" href="#contactanos">Contactanos</a>                
+                </nav>
+            </div>
+            <div id="comprar-ahora-link">
+                <a id="comprar-ahora-link" href="#comprar-ahora">Comprar ahora</a>
+            </div>        
     </header>
 
-    <div class="nosotros">
-        <p>Sobre nosotros</p>
-        <div class="textualbox">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at malesuada orci. Suspendisse luctus, ipsum sed laoreet molestie, libero elit gravida augue</p>
-        </div>        
-        <img id="whatsapp" src="img/Vector.svg">        
-        <button id="bluebutton">Consultá</button>
-    </div>
-
-    <div class="productos">
-        <button id="yellowbutton">Mirá nuestro catálogo online</button>
-        <button id="bluebutton">Hacé un pedido</button>
-        <div class="textualbox">
-            <p>Escribínos al whatsapp y un colaborador te dará toda la información que necesites</p>
-        </div>
-        <p>Enteráte de ofertas y promociones en nuestras redes</p>
-        <div class="socialmedia">
-            <img src="img/logofacebook.svg">
-            <img src="img/logoinstagram.svg">
+    <main>
+        <div class="nosotros" id="nosotros">
+            <p>Sobre nosotros</p>
+            <div class="textualbox">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at malesuada orci. Suspendisse luctus, ipsum sed laoreet molestie, libero elit gravida augue</p>
+            </div>        
+            <img id="whatsapp" src="statics/img/Vector.svg">        
+            <button id="bluebutton">Consultá</button>
         </div>
 
-    </div>
+        <div class="productos" id="productos">
+            <button id="yellowbutton">Mirá nuestro catálogo online</button>
+            <button id="bluebutton">Hacé un pedido</button>
+            <div class="textualbox">
+                <p>Escribínos al whatsapp y un colaborador te dará toda la información que necesites</p>
+            </div>
+            <p>Enteráte de ofertas y promociones en nuestras redes</p>
+            <div class="socialmedia">
+                <img src="statics/img/logofacebook.svg">
+                <img src="statics/img/logoinstagram.svg">
+            </div>
 
-    <div class="showroom">
-        <div class="yellowadvertice">
-            <p>Encontranos en Junín 2175
-                Corrientes Capital</p>
-            <p>Reservá tu turno y vení a probarte la prenda que quieras.
-                Cumplimos con estrictas medidas de sanidad para tu tranquilidad.</p>
         </div>
-        <img id="whatsapp" src="img/Vector.svg">
-        <button id="bluebutton">Reservar turno</button>
 
-        <div class="googlemap">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221.25090999636797!2d-58.8232651139574!3d-27.468806075726484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b5de03b77fd%3A0xebafdff02ea5facb!2sJunin%202175%2C%20W3400%20Corrientes!5e0!3m2!1ses!2sar!4v1625936367926!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="showroom" id="showroom">
+            <div class="yellowadvertice">
+                <!-- <h2>scroll-snap-type: y <em>mandatory</em></h2> -->
+                <p>Encontranos en Junín 2175
+                    Corrientes Capital</p>
+                <p>Reservá tu turno y vení a probarte la prenda que quieras.
+                    Cumplimos con estrictas medidas de sanidad para tu tranquilidad.</p>
+            </div>
+            <img id="whatsapp" src="statics/img/Vector.svg">
+            <button id="bluebutton">Reservar turno</button>
+
+            <div class="googlemap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221.25090999636797!2d-58.8232651139574!3d-27.468806075726484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b5de03b77fd%3A0xebafdff02ea5facb!2sJunin%202175%2C%20W3400%20Corrientes!5e0!3m2!1ses!2sar!4v1625936367926!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
         </div>
-        
-    </div>
 
-    <div class="contactanos">
-        <div class="form">
-            <p>
-                Solicitá presupuesto o dejános cualquier inquietud y en menos de 24 hs te estaremos respondiendo.
-            </p>
+        <div class="contactanos" id="contactanos">
+            <div class="form">
+                <p>
+                    Solicitá presupuesto o dejános cualquier inquietud y en menos de 24 hs te estaremos respondiendo.
+                </p>
 
-            <form id="formcontact">
-                <input id="name" type="text" name="name" placeholder="Nombre y apellido" required>
-                <input id="email" type="email" value="Ingrese su e-mail" required>
-                <textarea name="textarea" rows="10" cols="50" placeholder="Déjenos su consulta y responderemos en menos de 24 hs."></textarea>            
+                <form id="formcontact">
+                    <input id="name" type="text" name="name" placeholder="Nombre y apellido" required>
+                    <input id="email" type="email" value="Ingrese su e-mail" required>
+                    <textarea name="textarea" rows="10" cols="50" placeholder="Déjenos su consulta y responderemos en menos de 24 hs."></textarea>            
+            </div>
+            <button type="submit" id="greybutton">Enviar</button>
         </div>
-        <button type="submit" id="greybutton">Enviar</button>
-    </div>
 
-    <div class="comprar-ahora">
-        <p>COMPRAR-AHORA</p>
-    </div>
+        <div class="comprar-ahora" id="comprar-ahora">
+            <p>Seguí estos sencillos pasos:</p>
+            <ol type="1">
+                <li>Nos decís el código de los artículos que te gustaron.</li>
+                <li>Pasános la dirección de envío.</li>
+                <li>Te envíamos el presupuesto y un link de cobro ¡y listo!</li>
+            </ol>
+        </div>
+    </main>
 
 </body>
 </html>
