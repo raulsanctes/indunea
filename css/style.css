@@ -2,34 +2,40 @@ html {
     background-color: #353535;
     color: white;
     font-family: 'Sarala', sans-serif;
-    font-weight: 400;
+    font-weight: 400;    
     text-align: center;
+    font-size: 0.8rem; 
+    margin: auto;
+    width: 100vw;
 }
 
 .header {
     position: fixed;
-    top: 0px;        
-    left: 0px;
     width: 100vw;
+    top: 0px;
     font-weight: 700;
     font-size: 0.8rem;
     background-color: #353535;
-
 }
 
-#header-img {  
+p {
+    font-size: 13px;
+}
+
+#header-img {
     margin-bottom: 5px;
 }
 
 .nav-bar, .nav-link {
     text-decoration: none;
     color: #353535;
-    padding: 0.8rem 2% 0.8rem 2%;
-    border-radius: 20px 20px 0px 0px;
-    background-color: #FFFF00;    
+    padding: 1%;
+    background-color: #FFFF00;
 }
 
 .nav-link {
+    font-size: 0.8rem;    
+    padding: 0.9%;
     background-color: transparent;    
 }
 
@@ -43,10 +49,115 @@ html {
 
 main {
     margin-top: 10rem;
+    scroll-snap-type:mandatory;    
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 13px;
+    line-height: 200%;
+}
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0 10px 0;    
+    scroll-snap-type: y mandatory;    
+}
+    .textualbox {
+        margin-top: 10px;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+    }
+
+    .textualbox1 {
+        margin: 10px;
+        border: 6px solid rgba(255, 255, 255, 0.6);
+        box-sizing: border-box;
+    }
+
+#nosotros {    
+    font-size: 18px;
+    color: white;
+}
+
+.productos {
     scroll-snap-type: y mandatory;
 }
 
+.showroom {
+    scroll-snap-type: y mandatory;
+}
+
+.contactanos {
+    margin: 10px 0 10px 0px;
+    scroll-snap-type: y mandatory;
+}
+
+.socialmedia {  
+    margin: 10%;
+}
+
 .yellowadvertice {
-    scroll-snap-align:inherit;
-    background-color: red;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    background: #FFFF00;
+    color: #353535;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.googlemap {
+    
+}
+
+#boxyellowadvertice {
+    font-weight: normal;
+    font-size: 11px;
+    color: #353535;
+}
+
+#red {
+    display: flexbox;
+    flex-direction: row;
+    margin: 2%;
+    align-self: center;
+}
+
+#bluebutton, #yellowbutton {
+    border: none; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#bluebutton{    
+    background: #0487FF;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0 10px 0;
+}
+
+#yellowbutton {
+    background: #FFFF00;
+    color: #353535;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#whatsapp {
+    padding-top: 3%;
+    align-self: center;    
+    top: 50%;
+}
+
+#catalogoonline {
+    margin-top: 25%;    
 }

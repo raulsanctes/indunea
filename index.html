@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap" rel="stylesheet">
     <title>Indunea</title>
 </head>
 <body>
-    <header class="header">        
+    <header>  
+        <div class="header">
             <div class="header-img-class">
                 <img id="header-img" alt="Indunea Logo" src="statics/img/logoindunea.svg">
             </div>
@@ -22,42 +26,55 @@
             </div>
             <div id="comprar-ahora-link">
                 <a id="comprar-ahora-link" href="#comprar-ahora">Comprar ahora</a>
-            </div>        
+            </div>
+        </div>
     </header>
 
     <main>
-        <div class="nosotros" id="nosotros">
-            <p>Sobre nosotros</p>
+        <div class="nosotros">
+            <h1>Sobre nosotros</h1>
             <div class="textualbox">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at malesuada orci. Suspendisse luctus, ipsum sed laoreet molestie, libero elit gravida augue</p>
+                <div class="textualbox1">
+                    <p id="nosotros">Indunea es una empresa argentina, radicada en Corrientes capital, distribuidora mayorista y minorista de indumentaria de trabajo, caza, pesca, táctica, y de seguridad. Vendemos y hacemos envíos a todo el país.</p>
+                </div>
             </div>        
-            <img id="whatsapp" src="statics/img/Vector.svg">        
-            <button id="bluebutton">Consultá</button>
+            <div id="whatsapp">
+                <button id="bluebutton">Quiero más info</button>
+            </div>
         </div>
 
         <div class="productos" id="productos">
-            <button id="yellowbutton">Mirá nuestro catálogo online</button>
-            <button id="bluebutton">Hacé un pedido</button>
-            <div class="textualbox">
-                <p>Escribínos al whatsapp y un colaborador te dará toda la información que necesites</p>
+            <div id="catalogoonline">
+                <button id="yellowbutton">Mirá nuestro catálogo online</button>
             </div>
+            <div id="whatsapp">
+                <button id="bluebutton">Hacé un pedido</button>
+            </div>
+            <div class="textualbox">
+                <div class="textualbox1">
+                    <p id="nosotros">Escribínos al whatsapp y un colaborador te dará toda la información que necesites.</p>
+                </div>
+            </div>        
             <p>Enteráte de ofertas y promociones en nuestras redes</p>
             <div class="socialmedia">
-                <img src="statics/img/logofacebook.svg">
-                <img src="statics/img/logoinstagram.svg">
+                <div id="red">
+                    <img src="statics/img/logofacebook.svg">
+                </div>
+                <div id="red">
+                    <img src="statics/img/logoinstagram.svg">
+                </div>
             </div>
 
         </div>
 
-        <div class="showroom" id="showroom">
-            <div class="yellowadvertice">
-                <!-- <h2>scroll-snap-type: y <em>mandatory</em></h2> -->
-                <p>Encontranos en Junín 2175
-                    Corrientes Capital</p>
-                <p>Reservá tu turno y vení a probarte la prenda que quieras.
+        <div class="showroom" id="showroom">            
+            <div class="yellowadvertice">                
+                <h2>Encontranos en Junín 2175 -
+                    Corrientes Capital</h2>
+                <p id="boxyellowadvertice">Reservá tu turno y vení a probarte la prenda que quieras.
                     Cumplimos con estrictas medidas de sanidad para tu tranquilidad.</p>
             </div>
-            <img id="whatsapp" src="statics/img/Vector.svg">
+
             <button id="bluebutton">Reservar turno</button>
 
             <div class="googlemap">
