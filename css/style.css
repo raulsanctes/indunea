@@ -148,8 +148,7 @@ p {
 }
 
 .contactanos {
-    margin: 15rem 0 0 0;
-    padding: 10px 100px 0 100px ;
+    padding: 10px 40px 0 40px;
     font-weight: bold;
     line-height: 120.54%;
     background: #FFFF00;
@@ -159,7 +158,6 @@ p {
 
 .socialmedia {  
     margin: 5px 0 50px 0;
-
 }
 
 .yellowadvertice {
@@ -169,17 +167,15 @@ p {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.form {
-    flex-direction: column;
-    align-content: center;    
-}
-
 input, textarea {
+    display: flex;    
+    flex-direction: column;    
+    justify-content:center;    
     font-family: 'Barlow', sans-serif;
-    text-align: center;
     color: #353535;
-    width: 80vw;
-    margin: 3%;    
+    margin: auto;
+    margin-bottom: 10px;
+    width: 60vw;
     border: solid #353535 1px;
     border-radius: 8px;
     background-color: transparent;
@@ -369,6 +365,21 @@ input, textarea {
         #header-img {
             margin-bottom: 5px;
             max-width: 30%;
+        }
+
+        input, textarea {
+            display: flex;    
+            flex-direction: column;    
+            justify-content:center;    
+            font-family: 'Barlow', sans-serif;
+            color: #353535;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border: solid #353535 1px;
+            border-radius: 8px;
+            background-color: transparent;
+            padding: 10px;
         }
         
 }

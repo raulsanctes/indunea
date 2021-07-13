@@ -90,15 +90,22 @@
             
         </div>
 
-        <div class="contactanos" id="contactanos">
+        <div class="contactanos">
             <h2>Contactános</h2>
-            <div class="form">
+            <div>
                 <h3>Solicitá presupuesto o dejános cualquier inquietud y en menos de 24 hs te estaremos respondiendo.</h3>
                 <p class="boxyellowadvertice">O envíanos un mail a comercial@indunea.com.ar, también podés comunicarte al +54 379 4-xxxxxxx</p>
-                <form id="formcontact" action="https://formspree.io/f/xpzkjpke" method="POST" target="_blank">
-                    <input id="name" type="text" name="name" placeholder="Nombre y apellido" required>
-                    <input id="email" type="email" name="_replyto" placeholder="Ingrese su e-mail" required>
-                    <textarea name="message" rows="10" cols="50" placeholder="Déjenos su consulta y responderemos en menos de 24 hs."></textarea>
+                <form ction="https://formspree.io/f/xpzkjpke" method="POST" target="_blank">
+                    <label for="name">Nombre y apellido
+                        <input id="name" type="text" name="name" placeholder="Nombre y apellido" required>
+                    </label>
+                       
+                    <label for="email">E-mail
+                        <input id="email" type="email" name="_replyto" placeholder="Ingrese su e-mail" required>
+                    </label>
+                    <label for="message">Consulta
+                        <textarea name="message" rows="10" cols="50" placeholder="Déjenos su consulta y responderemos en menos de 24 hs."></textarea>
+                    </label>
                     <div>
                         <button type="submit" class="greybutton">Enviar</button>
                     </div>
