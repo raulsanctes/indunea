@@ -68,6 +68,7 @@ p {
     font-size: 1rem;
     padding: 10px 0px 10px 0px;
     text-decoration: none;
+    border-radius: 0 0 30px 30px;
 }
 
 main {
@@ -179,7 +180,7 @@ input, textarea {
     border: solid #353535 1px;
     border-radius: 8px;
     background-color: transparent;
-    padding: 10px;
+    padding: 10px;    
 }
 
 .googlemap {
@@ -189,7 +190,8 @@ input, textarea {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-::placeholder {    
+::placeholder {
+    opacity: 0.8; 
     color: #353535;
 }
 
@@ -220,7 +222,7 @@ input, textarea {
     color: white;
     font-size: 18px;
     font-weight: 700;
-    margin: 10px 0 10px 0;
+    margin: 20px 0 20px 0;
 }
 
 #yellowbutton {
@@ -249,6 +251,7 @@ input, textarea {
 
 #whatsapp {
     padding-top: 3%;
+    margin: 10%;
     align-self: center;    
     top: 50%;
 }
