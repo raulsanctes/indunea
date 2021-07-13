@@ -47,6 +47,7 @@ html {
 
 #header-img {
     margin-bottom: 5px;
+    max-width: 80%;
 }
 
 
@@ -63,18 +64,21 @@ html {
     background-color: transparent;    
 }
 
-#comprar-ahora-link {
-    color: white;  
+#cont-comprar-ahora {
     background-color: #0487FF;
-    font-size: 1rem;
-    padding: 10px 0px 10px 0px;
-    text-decoration: none;
     border-radius: 0 0 30px 30px;
+    padding: 10px 0px 10px 0px;
+}
+
+#comprar-ahora-link {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+
 }
 
 main {
     margin-top: 10rem;
-    scroll-snap-type:mandatory;    
 }
 
 h1 {
@@ -194,19 +198,19 @@ input, textarea {
     color: #353535;
 }
 
-#boxyellowadvertice {
+.boxyellowadvertice {
     font-weight: normal;
     color: #353535;
 }
 
-#red {
-    display: flexbox;
-    flex-direction: row;
-    margin: 2%;
+.red {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
     align-self: center;
 }
 
-#bluebutton, #yellowbutton {
+.bluebutton, .yellowbutton {
     border: none; 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 54px;    
@@ -215,7 +219,7 @@ input, textarea {
     text-decoration: none;
 }
 
-#bluebutton{    
+.bluebutton{    
     background: #0487FF;
     color: white;
     font-size: 18px;
@@ -223,14 +227,14 @@ input, textarea {
     margin: 20px 0 20px 0;
 }
 
-#yellowbutton {
+.yellowbutton {
     background: #FFFF00;
     color: #353535;
     font-size: 18px;
     font-weight: 700;    
 }
 
-#greybutton {    
+.greybutton {    
     color: white;    
     background: #353535;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -243,7 +247,7 @@ input, textarea {
     margin: 10px 0 0 0;
 }
 
-#whatsapp {
+.whatsapp {
     margin: 40px;
     align-self: center;    
     top: 50%;
@@ -326,7 +330,7 @@ input, textarea {
         #comprar-ahora-link {
             font-size: 1.7rem;
             height: 60px;
-            transition: height 0.5s;
+            transition: font-size 1s;
         }
         
         #comprar-ahora-link:hover {
@@ -334,12 +338,21 @@ input, textarea {
             height: 70px;
         }
 
-        #bluebutton:hover{    
+        #cont-comprar-ahora {
+            background-color: #0487FF;          
+        }
+
+        #cont-comprar-ahora:hover {
+            background-color: #353535;          
+            transition: background-color 1s;
+        }
+
+        .bluebutton:hover{    
             background: white;
             color: #0487FF;
         }
         
-        #yellowbutton:hover {
+        .yellowbutton:hover {
             background:  #353535;
             color: #FFFF00;
             border: 1px solid #FFFF00;
@@ -347,10 +360,15 @@ input, textarea {
             font-weight: 700;
         }
         
-        #greybutton:hover {    
+        .greybutton:hover {    
             color: #353535;    
             background: white;
             font-size: 24px;
+        }
+
+        #header-img {
+            margin-bottom: 5px;
+            max-width: 30%;
         }
         
 }
