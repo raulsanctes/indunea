@@ -11,6 +11,9 @@ html {
     font-size: 0.8rem; 
     margin: auto;
     width: 100vw;
+    background-image: url("../statics/img/fondo_desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% -29%;
 }
 
 .whatsapp-ico{      
@@ -38,6 +41,9 @@ html {
     top: 0px;
     font-weight: 700;
     font-size: 0.8rem;
+}
+
+.header-img-class {
     background-color: #353535;
 }
 
@@ -48,6 +54,7 @@ p {
 #header-img {
     margin-bottom: 5px;
 }
+
 
 .nav-bar, .nav-link {
     text-decoration: none;
@@ -264,6 +271,9 @@ input, textarea {
     html {        
         margin: auto;
         width: 50vw;
+        background-image: url("../statics/img/fondo_desktop.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% -12%;
     }
 
     .header {
@@ -272,7 +282,6 @@ input, textarea {
         top: 0px;
         font-weight: 700;
         font-size: 0.8rem;
-        background-color: #353535;
     }
 
     input, textarea {
@@ -293,7 +302,8 @@ input, textarea {
         display: flex;
         flex-direction: column;
         margin-top: 300px;
-        scroll-snap-type: y mandatory;    
+        scroll-snap-type: y mandatory;
+
     }
 
         .nav-link:hover {
@@ -319,6 +329,10 @@ input, textarea {
         }
 
         p {
+            font-size: 1.2rem;
+        }
+
+        h3 {
             font-size: 1.5rem;
         }
 
@@ -340,4 +354,5 @@ input, textarea {
             background: white;
             font-size: 24px;
         }
+        
 }
