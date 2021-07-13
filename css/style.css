@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;    
   }
 
 html {
@@ -250,8 +250,7 @@ input, textarea {
 }
 
 #whatsapp {
-    padding-top: 3%;
-    margin: 10%;
+    margin: 40px;
     align-self: center;    
     top: 50%;
 }
