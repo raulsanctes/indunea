@@ -163,10 +163,8 @@ h3 {
 }
 
 .form {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-content: center;    
 }
 
 input, textarea {
@@ -257,4 +255,89 @@ input, textarea {
 
 #catalogoonline {
     margin-top: 25%;    
+}
+
+/* Version escritorio */
+
+@media (min-width: 700px) {
+
+    html {        
+        margin: auto;
+        width: 50vw;
+    }
+
+    .header {
+        width: 100vw;
+        left: 0px;
+        top: 0px;
+        font-weight: 700;
+        font-size: 0.8rem;
+        background-color: #353535;
+    }
+
+    input, textarea {
+        width: 30vw;
+    }
+
+    textarea {
+    }
+
+    .googlemap {
+        width: 50vw;
+        height: 50vh;
+        border-radius: 8px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+        margin-top: 300px;
+        scroll-snap-type: y mandatory;    
+    }
+
+        .nav-link:hover {
+            background-color: #353535;
+            color: white;
+        }
+        
+        .nav-link {
+            font-size: 1.3rem;    
+            padding: 0.9%;
+            background-color: transparent;    
+        }
+        
+        #comprar-ahora-link {
+            font-size: 1.7rem;
+            height: 60px;
+            transition: height 0.5s;
+        }
+        
+        #comprar-ahora-link:hover {
+            font-size: 1.9rem;
+            height: 70px;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        #bluebutton:hover{    
+            background: white;
+            color: #0487FF;
+        }
+        
+        #yellowbutton:hover {
+            background:  #353535;
+            color: #FFFF00;
+            border: 1px solid #FFFF00;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        
+        #greybutton:hover {    
+            color: #353535;    
+            background: white;
+            font-size: 24px;
+        }
 }
