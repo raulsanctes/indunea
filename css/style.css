@@ -249,7 +249,14 @@ input, textarea {
 }
 
 #catalogoonline {
-    margin-top: 25%;    
+    margin-top: 2rem;    
+    margin-bottom: 2rem;
+}
+
+.catalogoframe, iframe {
+    margin: auto;
+    width: 50vw;
+    height: 50vh;
 }
 
 /* Version escritorio */
