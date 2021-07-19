@@ -130,7 +130,7 @@ p {
     flex-direction: column;
     margin: 0px 0 10px 0;    
     scroll-snap-type: y mandatory;
-    background-image: url("../statics/img/camisa_fondo.jpg");
+    background-image: url("../statics/img/camisa_fondo.jpf");
     background-size: 200%;
     background-repeat: no-repeat;
     background-position: 50% -3%;
