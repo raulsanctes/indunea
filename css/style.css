@@ -131,7 +131,7 @@ p {
     margin: 0px 0 10px 0;    
     scroll-snap-type: y mandatory;
     background-image: url("../statics/img/camisa_fondo.jpg");
-    background-size: 100%;
+    background-size: 200%;
     background-repeat: no-repeat;
     background-position: 50% -3%;
     padding-bottom: 5%;
@@ -327,7 +327,8 @@ input, textarea {
         display: flex;
         flex-direction: column;
         margin-top: 300px;
-        scroll-snap-type: y mandatory;       
+        scroll-snap-type: y mandatory;
+        background-size: 100%;
     }
 
             .textualbox {
