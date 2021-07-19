@@ -9,7 +9,7 @@ html {
     text-align: center;
     margin: auto;
     width: 100vw;
-    background-image: url(/statics/img/diagonal.svg);
+    background-image: url("../statics/img/diagonal.svg");
 }
 
 .whatsapp-ico{      
