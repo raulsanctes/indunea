@@ -9,9 +9,7 @@ html {
     text-align: center;
     margin: auto;
     width: 100vw;
-    background-image: url("../statics/img/fondo_desktop.jpg");
-    background-repeat: no-repeat;
-    background-position: 50% -29%;
+    background-image: url(/statics/img/diagonal.svg);
 }
 
 .whatsapp-ico{      
@@ -26,10 +24,35 @@ html {
     bottom: 30px;
     right : 30px;
     z-index: 10;
+    
 }
 
 .whatsapp-ico:hover{
     box-shadow: 2px 2px 11px rgba(0,0,0,0.7);
+}
+
+.redface {
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 80px;
+    right : 20px;    
+    z-index: 11;
+}
+
+.redig {
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 140px;
+    right : 20px;
+    z-index: 10;
 }
 
 .header {
@@ -48,7 +71,6 @@ html {
     margin-bottom: 5px;
     max-width: 80%;
 }
-
 
 .nav-bar, .nav-link {
     text-decoration: none;
@@ -78,6 +100,9 @@ html {
 
 main {
     margin-top: 10rem;
+    background-color: #353535;
+
+
 }
 
 h1 {
@@ -104,7 +129,15 @@ p {
     display: flex;
     flex-direction: column;
     margin: 0px 0 10px 0;    
-    scroll-snap-type: y mandatory;    
+    scroll-snap-type: y mandatory;
+    background-image: url("../statics/img/camisa_fondo.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% -3%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+
 }
     .textualbox {
         margin-top: 10px;
@@ -266,9 +299,6 @@ input, textarea {
     html {        
         margin: auto;
         width: 50vw;
-        background-image: url("../statics/img/fondo_desktop.jpg");
-        background-repeat: no-repeat;
-        background-position: 50% -12%;
     }
 
     .header {
@@ -287,7 +317,7 @@ input, textarea {
     }
 
     .googlemap {
-        width: 50vw;
+        width: 35vw;
         height: 50vh;
         border-radius: 8px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
